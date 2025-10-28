@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Headphones",
+    "slug": "wireless-headphones",
+    "description": "High-quality Bluetooth 5.0 headphones with deep bass, noise cancellation, and 20 hours of battery life.",
+    "price": 349900,
+    "inventory": 15,
+    "image": "https://images.unsplash.com/photo-1518443893939-6f6ad6f2f7b7?auto=format&fit=crop&w=600&q=60"
+  },
+  {
+    "id": 2,
+    "name": "Smart Watch Series 5",
+    "slug": "smart-watch-series-5",
+    "description": "Track your fitness, heart rate, and sleep with the latest smart watch featuring AMOLED display.",
+    "price": 899900,
+    "inventory": 20,
+    "image": "https://images.unsplash.com/photo-1606813902914-3b5094a5b2d3?auto=format&fit=crop&w=600&q=60"
+  },
+  {
+    "id": 3,
+    "name": "Wireless Bluetooth Speaker",
+    "slug": "bluetooth-speaker",
+    "description": "Portable wireless speaker with powerful sound and 12 hours of playtime. Waterproof design for outdoor use.",
+    "price": 499900,
+    "inventory": 18,
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=600&q=60"
+  },
+  {
+    "id": 4,
+    "name": "Gaming Mouse RGB",
+    "slug": "gaming-mouse",
+    "description": "Ergonomic RGB gaming mouse with adjustable DPI, 6 programmable buttons, and ultra-smooth scroll.",
+    "price": 199900,
+    "inventory": 25,
+    "image": "https://images.unsplash.com/photo-1587202372775-aeb6c78a25e4?auto=format&fit=crop&w=600&q=60"
+  },
+  {
+    "id": 5,
+    "name": "Mechanical Keyboard",
+    "slug": "mechanical-keyboard",
+    "description": "Compact RGB mechanical keyboard with blue switches and aluminum body for fast typing and gaming.",
+    "price": 549900,
+    "inventory": 12,
+    "image": "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?auto=format&fit=crop&w=600&q=60"
+  },
+  {
+    "id": 6,
+    "name": "Full HD Monitor 24-inch",
+    "slug": "full-hd-monitor",
+    "description": "24-inch IPS display with 75Hz refresh rate, ultra-slim design, and vivid color reproduction for work and gaming.",
+    "price": 1099900,
+    "inventory": 10,
+    "image": "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?auto=format&fit=crop&w=600&q=60"
+  },
+  {
+    "id": 7,
+    "name": "Laptop Stand Adjustable",
+    "slug": "laptop-stand",
+    "description": "Aluminum adjustable laptop stand with heat dissipation design and ergonomic viewing angle.",
+    "price": 149900,
+    "inventory": 30,
+    "image": "https://images.unsplash.com/photo-1612831455543-162b00c4f444?auto=format&fit=crop&w=600&q=60"
+  },
+  {
+    "id": 8,
+    "name": "External Hard Drive 1TB",
+    "slug": "external-hard-drive",
+    "description": "High-speed USB 3.0 external hard drive for backup and storage. Plug-and-play compatible with all systems.",
+    "price": 459900,
+    "inventory": 17,
+    "image": "https://images.unsplash.com/photo-1612817159949-b52b54b40e23?auto=format&fit=crop&w=600&q=60"
+  },
+  {
+    "id": 9,
+    "name": "Smartphone Tripod Stand",
+    "slug": "tripod-stand",
+    "description": "Flexible tripod stand for smartphones with Bluetooth remote, perfect for photography and vlogging.",
+    "price": 99900,
+    "inventory": 40,
+    "image": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=600&q=60"
+  },
+  {
+    "id": 10,
+    "name": "Portable Power Bank 20000mAh",
+    "slug": "power-bank",
+    "description": "Fast-charging portable power bank with dual USB output and LED charge indicator.",
+    "price": 249900,
+    "inventory": 22,
+    "image": "https://images.unsplash.com/photo-1596496051690-1a18e1e2df7c?auto=format&fit=crop&w=600&q=60"
+  }
+]

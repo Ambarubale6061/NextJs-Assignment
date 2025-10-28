@@ -1,0 +1,310 @@
+/* Amazon-style UI for Product Catalog */
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #f3f3f3;
+}
+
+.home-bg {
+  min-height: 100vh;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #232f3e;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.navbar h2 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.nav-btn {
+  background: #febd69;
+  color: #111;
+  padding: 8px 14px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.nav-btn:hover {
+  background: #f3a847;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(to right, #232f3e, #37475a);
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 8px;
+}
+
+.hero p {
+  font-size: 16px;
+  color: #ddd;
+}
+
+/* Product Grid */
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 30px;
+}
+
+/* Product Card */
+.product-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 22px rgba(0, 0, 0, 0.15);
+}
+
+.product-img img {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+  background-color: #fafafa;
+  padding: 10px;
+}
+
+.product-info {
+  padding: 12px 16px;
+}
+
+.product-info h3 {
+  font-size: 16px;
+  margin: 0 0 4px 0;
+}
+
+.product-info .desc {
+  color: #555;
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+
+.price {
+  color: #b12704;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.stock {
+  font-size: 12px;
+  color: #007600;
+}
+
+/* Actions */
+.product-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 16px 16px;
+}
+
+.view-btn {
+  background-color: #007185;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+.view-btn:hover {
+  background-color: #004c5c;
+}
+
+.cart-btn {
+  background-color: #ffa41c;
+  border: none;
+  color: #111;
+  font-weight: 600;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.cart-btn:hover {
+  background-color: #f3a847;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #232f3e;
+  color: #fff;
+  margin-top: 40px;
+}
+/* ================================
+   🧩 ADMIN PANEL STYLES
+   ================================ */
+
+.admin-page {
+  background: #f3f3f3;
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+.admin-nav {
+  background: #232f3e;
+  color: #fff;
+  padding: 14px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.admin-nav h2 {
+  margin: 0;
+}
+
+.admin-container {
+  max-width: 900px;
+  margin: 30px auto;
+  background: white;
+  border-radius: 10px;
+  padding: 24px 30px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+.admin-container h3 {
+  color: #232f3e;
+  margin-bottom: 12px;
+  border-bottom: 2px solid #febd69;
+  display: inline-block;
+  padding-bottom: 4px;
+}
+
+.admin-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.admin-row {
+  display: flex;
+  gap: 10px;
+}
+
+.admin-input {
+  padding: 10px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.admin-input:focus {
+  border-color: #febd69;
+  box-shadow: 0 0 6px rgba(255, 193, 7, 0.3);
+  outline: none;
+}
+
+.admin-btn {
+  background: #febd69;
+  border: none;
+  color: #111;
+  font-weight: 600;
+  padding: 10px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 150px;
+  transition: 0.2s;
+}
+
+.admin-btn:hover {
+  background: #f3a847;
+}
+
+.admin-msg {
+  margin-top: 10px;
+  padding: 10px;
+  background: #e8f5e9;
+  border: 1px solid #81c784;
+  border-radius: 6px;
+  color: #2e7d32;
+  font-weight: 500;
+}
+
+.admin-list-title {
+  margin-top: 30px;
+}
+
+.admin-products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 14px;
+  margin-top: 10px;
+}
+
+.admin-card {
+  background: #fafafa;
+  border-radius: 10px;
+  padding: 14px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  transition: transform 0.2s ease;
+}
+
+.admin-card:hover {
+  transform: translateY(-4px);
+}
+
+.admin-card img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  border-radius: 6px;
+  background: #fff;
+  border: 1px solid #eee;
+}
+
+.admin-card h4 {
+  margin: 0;
+  font-size: 15px;
+  color: #111;
+}
+
+.admin-card .small {
+  font-size: 12px;
+  color: #666;
+}
+
+.admin-card .price {
+  margin-left: auto;
+  font-weight: 600;
+  color: #b12704;
+}
